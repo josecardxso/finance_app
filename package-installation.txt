@@ -1,0 +1,9 @@
+//React 
+npm i react-app
+npm i react-router-dom
+
+//React fontawesome
+npm install --save @fortawesome/react-fontawesome
+
+//SVG BRANDS
+npm install --save @fortawesome/free-brands-svg-icons
