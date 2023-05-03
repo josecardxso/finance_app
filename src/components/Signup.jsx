@@ -27,7 +27,7 @@ export default function Signup() {
           </form>
           
           <div class="not-member">
-            already a member? <Link to="/teste">Sign in!</Link>
+            already a member? <Link to="/Login">Sign in!</Link>
           </div>
         </div>
     </div>

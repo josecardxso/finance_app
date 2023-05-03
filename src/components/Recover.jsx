@@ -20,7 +20,7 @@ export default function Recover() {
             </div>
             
 
-            <Link to={"/teste"}>
+            <Link to={"/Login"}>
               <button type="submit">
                 Submit
               </button>
