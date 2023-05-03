@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html{
+
+  background: #dfe9f5;
+
+}
+
+body{
+
+    background-color: #dfe9f5;
+    font-family: sans-serif;
+
+}
+
+.main-container{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 35px 20px 35px 20px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 7px 25px 3px rgba(0,0,0,.6);
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+.form-container{
+   
+    text-align: center;
+
+}
+
+  p{
+
+    margin-bottom: 1.2rem;
+
+  }
+
+  h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+  }
+
+  form input{
+    width: 85%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 1s, 
+        border-radius 0s;
+        
+  }
+
+  form input:focus{
+
+    color: #6b6b6b;
+    padding-left: 10px;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #6b6b6b;
+    outline: none;
+    background: transparent;
+    transition: 1s, 
+    border-radius 0s;
+    
+  }
+
+
+  .form-container .userbox label {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    color: #000000;
+    pointer-events: none;
+    transition: 1s;
+  }
+  
+
+  .recover{
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.2rem 1.7rem 0 0;
+    transition: 1s;
+  }
+  .recover a{
+    text-decoration: none;
+    color: #07001f;
+  }
+  button{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 85%;
+    background: tomato;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover{
+    background: rgba(122, 30, 30, 0.767);
+  }
+  p{
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: 1s;
+  }
+
+  .icons{
+
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    transition: 1s;
+
+  }
+
+  .icons i{
+    color: #07001f;
+    padding: 00.8rem 1.5rem;
+    border-radius: 10px;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+    transition: 1s;
+  }
+  .icons i:hover{
+    color: #fff !important;
+    background: #07001f;
+    transition: 1s;
+    border: 2px solid #07001f;;
+  }
+  .icons i:first-child{
+    color: green;
+  }
+  .icons i:last-child{
+    color: blue;
+  }
+  .not-member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    transition: 0.5s;
+  }
+  .not-member a{
+    color: tomato;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.4s;
+    
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .alert{
+
+
+    color: #e91313;
+    font-size: 0.8rem;
+    transition: 1s;
+    width: 85%;
+    
+
+  }
+
+@media only screen and (max-width: 600px){
+
+    .main-container{
+
+        width: 300px;
+
+    }
+
+    .recover{
+
+        font-size: 0.6rem;
+        margin: 0.2rem 1.5rem 0 0;
+        
+      }
+
+    .icons i{
+
+        font-size: 1rem;
+        padding: 00.8rem 1.35rem;
+        border-radius: 10px;
+        margin-left: .2rem;
+        margin-right: .2rem;
+
+    }
+
+    .icons{
+
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+  
+    }
+
+    p{
+
+      font-size: 0.6rem;
+      
+    }
+
+    .not-member {
+
+      font-size: 0.6rem;
+      
+    }
+
+    .not-member a{
+
+      font-size: 0.7rem;
+
+    }
+
+
+    .alert{
+
+      font-size: 0.6rem;
+
+    }
+    
+
+} 
