@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kronerl.github.io",
-  "name": "Finance APP",
+  "homepage": "https://kronerl.github.io/finance_app",
+  "name": "finance_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
