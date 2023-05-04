@@ -16,6 +16,7 @@ export default function Signup() {
           
           <form >
             <div>
+              <p>a</p>
               <input type="text" placeholder="Enter email"  required></input>
               <input type="password" placeholder="Password"  required></input>
               <input type="password" placeholder="Password Confirmation"  required></input>
