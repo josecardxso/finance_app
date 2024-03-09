@@ -24,7 +24,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "cz",
+    "prepare": "husky",
+    "format": "prettier . --write"
   },
   "eslintConfig": {
     "extends": [
@@ -45,7 +48,21 @@
     ]
   },
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "gh-pages": "^5.0.0",
-    "nth-check": ">=2.0.1"
+    "husky": "^9.0.11",
+    "nth-check": ">=2.0.1",
+    "prettier": "^3.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
